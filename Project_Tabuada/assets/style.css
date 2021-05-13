@@ -1,0 +1,36 @@
+
+body{
+    background-color: #F2F2F2;
+}
+
+/*Centralizando o conteúdo*/
+.content-tabuada{
+    background-color: #fff;
+    width: 100%;
+    max-width:400px;
+    margin:auto;/*Calcula todas as margins e deixa todas dos mesmos tamanho*/
+    padding:20px;
+    border-radius: 20px;
+    
+}
+.content-tabuada table{
+    width:100%;
+    border-collapse: collapse;
+}
+.content-tabuada td{
+    padding:.75rem;
+    border-top: 1px solid #DEE2E6;
+}
+
+.content-tabuada tbody tr:nth-child(odd){
+    background: rgba(0, 0, 0,.05);
+}
+
+.content-tabuada tr:hover{
+    background: rgba(0, 0, 0,.15);
+}
+
+#valorA{
+    width:95%;
+    padding:10px;
+}
